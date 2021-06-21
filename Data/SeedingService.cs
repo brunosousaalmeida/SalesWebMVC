@@ -57,7 +57,7 @@ namespace SalesWebMVC.Data
 
             _context.Departament.AddRange(d1, d2, d3, d4);
             _context.Seller.AddRange(s1, s2, s3, s4, s5, s6);
-            _context.SalesRecord.AddRange(r1, r2, r3, r4, r5, r6, r7, r7, r9, r10, r11, r12, r13, r14, r15, r16, r17);
+            _context.SalesRecord.AddRange(r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17);
             _context.SaveChanges();
         }
     }
